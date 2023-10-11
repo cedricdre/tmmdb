@@ -1,0 +1,29 @@
+.img-cover {
+    width: 100%;
+    height: auto;
+}
+@media all and (min-width: 576px) {
+    .img-cover {
+        height: 350px;
+    }
+}
+@media all and (min-width: 768px) {
+    .img-cover {
+        height: 300px;
+    }
+}
+@media all and (min-width: 992px) {
+    .img-cover {
+        height: 350px;
+    }
+}
+@media all and (min-width: 1200px) {
+    .img-cover {
+        height: 400px;
+    }
+}
+.scroll {
+    max-height: 100px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
